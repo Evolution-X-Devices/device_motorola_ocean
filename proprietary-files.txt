@@ -334,5 +334,10 @@ vendor/lib64/sensors.ssc.so;DISABLE_CHECKELF
 # Sound Card (tfa98xx)
 vendor/firmware/tfa98xx.cnt
 
+# Thermal
+vendor/etc/thermal-engine.conf
+vendor/etc/thermal-engine-ocean.conf
+vendor/etc/thermal-engine-ocean-NA.conf
+
 # Touchscreen firmware
 vendor/firmware/FT8006U_Pramboot.bin

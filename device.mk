@@ -99,9 +99,5 @@ PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
     ro.telephony.default_network \
     ro.vendor.telephony.default_network
 
-# Thermal
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
-
 # Inherit from motorola sdm632-common
 $(call inherit-product, device/motorola/sdm632-common/common.mk)
