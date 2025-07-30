@@ -8,7 +8,7 @@ $(call inherit-product, vendor/motorola/ocean/ocean-vendor.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := 560dpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Audio
 PRODUCT_COPY_FILES += \
