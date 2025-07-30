@@ -20,4 +20,4 @@ PRODUCT_NAME := lineage_ocean
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="ocean-user 10 QPOS30.52-29-12 401fd release-keys" \
     BuildFingerprint=motorola/ocean/ocean:10/QPOS30.52-29-12/401fd:user/release-keys \
-    DeviceName=ocean
+    DeviceProduct=ocean
