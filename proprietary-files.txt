@@ -339,6 +339,8 @@ vendor/firmware/st21nfc_fw.bin
 vendor/firmware/AbovCapSense.BIN
 
 # Sensors
+vendor/etc/sensors/hals.conf
+vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/lib/sensors.ssc.so;DISABLE_CHECKELF
 vendor/lib64/sensors.ssc.so;DISABLE_CHECKELF
 
