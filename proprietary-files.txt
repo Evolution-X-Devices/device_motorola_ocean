@@ -181,6 +181,11 @@ vendor/lib/libchromatix_s5k4h7_ocean_video_full.so
 vendor/lib/libchromatix_s5k4h7_ocean_zsl_preview_3a.so
 vendor/lib/libchromatix_s5k4h7_ocean_zsl_video_3a.so
 
+# Camera - Configs
+vendor/etc/camera/camera_config.xml
+vendor/etc/camera/ov12a10_ocean_chromatix.xml
+vendor/etc/camera/s5k4h7_ocean_chromatix.xml
+
 # Camera - Firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw
 vendor/firmware/cpp_firmware_v1_12_0.fw
@@ -313,6 +318,8 @@ vendor/firmware/ilitek-tianma-ILI9881-1c-69-ocean.bin
 vendor/firmware/novatek_ts-csot-NT36672A-180919-07-ocean.bin
 
 # Fingerprint
+system/usr/idc/uinput-fpc.idc:vendor/usr/idc/uinput-fpc.idc
+system/usr/keylayout/uinput-fpc.kl:vendor/usr/keylayout/uinput-fpc.kl
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ocean.rc
 vendor/lib64/com.fingerprints.extension@1.0.so
@@ -321,6 +328,10 @@ vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
 
+# NFC
+vendor/etc/libnfc-hal-st.conf
+vendor/etc/libnfc-nci-st.conf
+
 # NFC Firmware
 vendor/firmware/st21nfc_fw.bin
 
@@ -328,11 +339,18 @@ vendor/firmware/st21nfc_fw.bin
 vendor/firmware/AbovCapSense.BIN
 
 # Sensors
+vendor/etc/sensors/hals.conf
+vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/lib/sensors.ssc.so;DISABLE_CHECKELF
 vendor/lib64/sensors.ssc.so;DISABLE_CHECKELF
 
 # Sound Card (tfa98xx)
 vendor/firmware/tfa98xx.cnt
+
+# Thermal
+vendor/etc/thermal-engine.conf
+vendor/etc/thermal-engine-ocean.conf
+vendor/etc/thermal-engine-ocean-NA.conf
 
 # Touchscreen firmware
 vendor/firmware/FT8006U_Pramboot.bin
