@@ -318,6 +318,8 @@ vendor/firmware/ilitek-tianma-ILI9881-1c-69-ocean.bin
 vendor/firmware/novatek_ts-csot-NT36672A-180919-07-ocean.bin
 
 # Fingerprint
+system/usr/idc/uinput-fpc.idc:vendor/usr/idc/uinput-fpc.idc
+system/usr/keylayout/uinput-fpc.kl:vendor/usr/keylayout/uinput-fpc.kl
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-ocean.rc
 vendor/lib64/com.fingerprints.extension@1.0.so
